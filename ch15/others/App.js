@@ -45,22 +45,17 @@ console.log(simplecontract);
 function callMatchertrue()
 {
 var txn = simplecontract.Matcher.call(12);
-{
-};
 console.log("return value: " + txn);
-}
+};
 function callMatcherfalse()
 {
-var txn = simplecontract.Matcher.call(1);{
-};
+var txn = simplecontract.Matcher.call(1);
 console.log("return value: " + txn);
-}
+};
 function myFunction()
 {
 var x = document.getElementById("txtValue").value;
-var txn = simplecontract.Matcher.call(x);{
-};
+var txn = simplecontract.Matcher.call(x);
 console.log("return value: " + txn);
-
 document.getElementById("decision").innerHTML = txn;
-}
+};
